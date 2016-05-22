@@ -225,7 +225,7 @@
 		EE158C8E1CBD55AA00A3E3F0 /* RoutingHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutingHTTPServer.h; sourceTree = "<group>"; };
 		EE158C8F1CBD55AA00A3E3F0 /* RoutingHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutingHTTPServer.m; sourceTree = "<group>"; };
 		EE158D761CBD563C00A3E3F0 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		EE158D7D1CBD56C400A3E3F0 /* RoutingHttpServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingHttpServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE158D7D1CBD56C400A3E3F0 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE158DCB1CBD57B000A3E3F0 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -261,7 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				EE158B6A1CBD54FE00A3E3F0 /* RoutingHTTPServer.framework */,
-				EE158D7D1CBD56C400A3E3F0 /* RoutingHttpServer.framework */,
+				EE158D7D1CBD56C400A3E3F0 /* RoutingHTTPServer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -575,7 +575,7 @@
 			);
 			name = "RoutingHTTPServer iOS";
 			productName = "RoutingHTTPServer iOS";
-			productReference = EE158D7D1CBD56C400A3E3F0 /* RoutingHttpServer.framework */;
+			productReference = EE158D7D1CBD56C400A3E3F0 /* RoutingHTTPServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -860,7 +860,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.codeworkshop.RoutingHTTPServer-iOS";
-				PRODUCT_NAME = RoutingHttpServer;
+				PRODUCT_NAME = RoutingHTTPServer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -880,7 +880,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.codeworkshop.RoutingHTTPServer-iOS";
-				PRODUCT_NAME = RoutingHttpServer;
+				PRODUCT_NAME = RoutingHTTPServer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
