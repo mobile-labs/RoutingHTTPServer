@@ -224,7 +224,7 @@
 
 /* Begin PBXFileReference section */
 		1C1779252195B9E6000C611F /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
-		1CC319DA2195D038003F0325 /* RoutingHTTPServer tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RoutingHTTPServer tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC319DA2195D038003F0325 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE158B6A1CBD54FE00A3E3F0 /* RoutingHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoutingHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE158B6F1CBD54FE00A3E3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE158B7B1CBD55A900A3E3F0 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
@@ -352,7 +352,7 @@
 			children = (
 				EE158B6A1CBD54FE00A3E3F0 /* RoutingHTTPServer.framework */,
 				EE158D7D1CBD56C400A3E3F0 /* RoutingHTTPServer.framework */,
-				1CC319DA2195D038003F0325 /* RoutingHTTPServer tvOS.framework */,
+				1CC319DA2195D038003F0325 /* RoutingHTTPServer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -691,7 +691,7 @@
 			);
 			name = "RoutingHTTPServer tvOS";
 			productName = "RoutingHTTPServer iOS";
-			productReference = 1CC319DA2195D038003F0325 /* RoutingHTTPServer tvOS.framework */;
+			productReference = 1CC319DA2195D038003F0325 /* RoutingHTTPServer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EE158B691CBD54FE00A3E3F0 /* RoutingHTTPServer */ = {
@@ -931,7 +931,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.codeworkshop.RoutingHTTPServer-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RoutingHTTPServer;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -954,7 +954,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.codeworkshop.RoutingHTTPServer-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RoutingHTTPServer;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
