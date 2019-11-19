@@ -12,6 +12,7 @@ FOUNDATION_EXPORT const unsigned char RoutingHTTPServerVersionString[];
 #import <RoutingHTTPServer/RouteResponse.h>
 #import <RoutingHTTPServer/RouteRequest.h>
 #import <RoutingHTTPServer/RoutingConnection.h>
+#import <RoutingHTTPServer/GCDAsyncSocket.h>
 
 typedef void (^RequestHandler)(RouteRequest *request, RouteResponse *response);
 
