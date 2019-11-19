@@ -58,7 +58,7 @@
 		1CC319C02195D038003F0325 /* DAVResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158BA31CBD55A900A3E3F0 /* DAVResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1CC319C12195D038003F0325 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C7B1CBD55AA00A3E3F0 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1CC319C22195D038003F0325 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C751CBD55AA00A3E3F0 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1CC319C32195D038003F0325 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C6F1CBD55AA00A3E3F0 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1CC319C32195D038003F0325 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C6F1CBD55AA00A3E3F0 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CC319C42195D038003F0325 /* HTTPFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158B991CBD55A900A3E3F0 /* HTTPFileResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1CC319C52195D038003F0325 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C771CBD55AA00A3E3F0 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1CC319C62195D038003F0325 /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158B931CBD55A900A3E3F0 /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -120,7 +120,7 @@
 		EE158CB91CBD55AA00A3E3F0 /* DELETEResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158BA61CBD55A900A3E3F0 /* DELETEResponse.m */; };
 		EE158CBA1CBD55AA00A3E3F0 /* PUTResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158BA71CBD55A900A3E3F0 /* PUTResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EE158CBB1CBD55AA00A3E3F0 /* PUTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158BA81CBD55A900A3E3F0 /* PUTResponse.m */; };
-		EE158D3A1CBD55AA00A3E3F0 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C6F1CBD55AA00A3E3F0 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EE158D3A1CBD55AA00A3E3F0 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C6F1CBD55AA00A3E3F0 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158D3B1CBD55AA00A3E3F0 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158C701CBD55AA00A3E3F0 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EE158D3D1CBD55AA00A3E3F0 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C731CBD55AA00A3E3F0 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EE158D3E1CBD55AA00A3E3F0 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158C741CBD55AA00A3E3F0 /* DDAbstractDatabaseLogger.m */; };
@@ -203,7 +203,7 @@
 		EE158DB81CBD575500A3E3F0 /* DELETEResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158BA61CBD55A900A3E3F0 /* DELETEResponse.m */; };
 		EE158DB91CBD575500A3E3F0 /* PUTResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158BA71CBD55A900A3E3F0 /* PUTResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EE158DBA1CBD575500A3E3F0 /* PUTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158BA81CBD55A900A3E3F0 /* PUTResponse.m */; };
-		EE158DBB1CBD575500A3E3F0 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C6F1CBD55AA00A3E3F0 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EE158DBB1CBD575500A3E3F0 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C6F1CBD55AA00A3E3F0 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158DBC1CBD575500A3E3F0 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158C701CBD55AA00A3E3F0 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EE158DBD1CBD575500A3E3F0 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158C731CBD55AA00A3E3F0 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EE158DBE1CBD575500A3E3F0 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EE158C741CBD55AA00A3E3F0 /* DDAbstractDatabaseLogger.m */; };
