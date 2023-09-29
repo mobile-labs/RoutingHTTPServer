@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.source_files = 'Source'
 
   s.requires_arc = true
-  s.ios.deployment_target = '4.0'
-  s.osx.deployment_target = '10.7'
-  s.tvos.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
+  s.osx.deployment_target = '10.13'
+  s.tvos.deployment_target = '12.0'
 
   s.dependency 'CocoaHTTPServer', '~> 2.3'
 end
